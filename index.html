@@ -4,16 +4,29 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Vote Now</title>
     <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="index/bootstrap.min.css" rel="stylesheet" media="screen,print">
     <link href="index/custom.css" rel="stylesheet" media="screen,print">
     <link href="index/link-custom.css" rel="stylesheet" media="screen,print">
     <link href="index/animate.min.css" rel="stylesheet" media="screen,print">
     <style>
-        html, body {font-family: 'Arial', "Helvetica Neue", Arial, sans-serif !important;}
-        html {font-size: 16px !important;}
+        html, body {
+            font-family: 'Arial', "Helvetica Neue", Arial, sans-serif !important;
+            height: 100%; /* Ensure body and html take up full screen height */
+        }
+        html {
+            font-size: 16px !important;
+        }
+        body {
+            margin: 0; /* Remove default margin */
+            background: #FFFFFF; /* Set background color */
+        }
+        .container {
+            height: 100%; /* Ensure the container takes up full screen height */
+        }
     </style>
 </head>
-<body class="link-body" style="background: #FFFFFF;">
+<body class="link-body">
     <div class="container animate__animated animate__fadeIn">
         <div class="row d-flex justify-content-center text-center">
             <div class="col-md-8 link-content">
